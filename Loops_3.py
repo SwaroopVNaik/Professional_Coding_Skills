@@ -11,4 +11,4 @@ def print_star_grid_concatination(gridSize):
         print("".join(printMsg))
 
 # This will print a 5x5 grid of stars.
-print_star_grid_concatination(5)
+print_star_grid_concatination(5) 
