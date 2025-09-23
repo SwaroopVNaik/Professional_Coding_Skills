@@ -11,7 +11,7 @@ def print_star_grid_concatination(gridSize):
         print("".join(printMsg))
 
 # This will print a 5x5 grid of stars.
-#print_star_grid_concatination(5) 
+print_star_grid_concatination(5) 
 
 # Example :-> Print_Star only at edges 
 
@@ -28,9 +28,9 @@ def Print_Star_only_at_Edges(GridSize):
 
         print(" ".join(printMsg))
 
-#Print_Star_only_at_Edges(5)
+Print_Star_only_at_Edges(5)
 
-# Exampole :-> Calculate and create string with spaces ! 
+# Example :-> Calculate and create string with spaces (Pyramid Pattern) ! 
 # Calculate and create stars
 # print stars + new Line
 
@@ -44,6 +44,7 @@ def print_star_pyramid(height):
 
 print_star_pyramid(15)
 
+# Example :-> Inverted Pyramid ! 
 def print_inverted_star_pyramid(height):
 
     for level in range(1, height + 1, 1):
