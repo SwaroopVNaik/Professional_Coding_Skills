@@ -1,3 +1,4 @@
+# Example 1 ->
 # The function `print_star_grid_concatenation` takes a single number as input.
 def print_star_grid_concatination(gridSize):
     # This loop runs for each row we need to print.
@@ -13,7 +14,7 @@ def print_star_grid_concatination(gridSize):
 # This will print a 5x5 grid of stars.
 print_star_grid_concatination(5) 
 
-# Example :-> Print_Star only at edges 
+# Example 2 :-> Print_Star only at edges 
 
 def Print_Star_only_at_Edges(GridSize):
     for row in range(1, GridSize + 1, 1):
@@ -30,7 +31,7 @@ def Print_Star_only_at_Edges(GridSize):
 
 Print_Star_only_at_Edges(5)
 
-# Example :-> Calculate and create string with spaces (Pyramid Pattern) ! 
+# Example 3 :-> Calculate and create string with spaces (Pyramid Pattern) ! 
 # Calculate and create stars
 # print stars + new Line
 
@@ -44,7 +45,7 @@ def print_star_pyramid(height):
 
 print_star_pyramid(15)
 
-# Example :-> Inverted Pyramid ! 
+# Example 4 :-> Inverted Pyramid ! 
 def print_inverted_star_pyramid(height):
 
     for level in range(1, height + 1, 1):
